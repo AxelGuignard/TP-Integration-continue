@@ -1,7 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: axelg
- * Date: 07/01/2019
- * Time: 16:12
- */
+<head>
+    <link rel="stylesheet" type="text/css" href="https://<?= $_SERVER["SERVER_NAME"] ?>/css/main.css">
+</head>

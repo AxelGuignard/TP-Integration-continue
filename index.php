@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 /**
  * Created by PhpStorm.
  * User: axelg
@@ -13,6 +15,10 @@
 include 'template/head.php';
 ?>
 <body>
+    <?php
+    include 'template/navbar.php';
+    ?>
+    <div style="height: 5vh"></div>
     <?php
     include 'template/header.php';
     ?>
