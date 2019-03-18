@@ -14,14 +14,14 @@ header
     height: 25vh;
 }
 
-nav
-{
-    background: #1b9bb6;
-    position: fixed;
-    height: 5vh;
-    width: 100%;
-    display: inline-block;
-}
+/*nav*/
+/*{*/
+    /*background: #1b9bb6;*/
+    /*position: fixed;*/
+    /*height: 5vh;*/
+    /*width: 100%;*/
+    /*display: inline-block;*/
+/*}*/
 
 #banner
 {
@@ -31,20 +31,17 @@ nav
     width: 100%;
 }
 
-#nav_connect_button
-{
-    float: right;
-    height: 80%;
-    background: lightblue;
-    border: 0;
-    border-radius: 5px;
-    color: #136e81;
-}
+/*.nav-button*/
+/*{*/
+    /*float: right;*/
+    /*height: 80%;*/
+    /*background: lightblue;*/
+    /*border: 0;*/
+    /*border-radius: 5px;*/
+    /*color: #136e81;*/
+/*}*/
 
-#nav_connect_button:after {
-    clear: both;
-    height: 0;
-    width: 100%;
-    content: '';
-    display: block;
+.bg-main
+{
+    background: #1b9bb6;
 }
