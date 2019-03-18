@@ -2,6 +2,7 @@ body, html, header
 {
     width: 100%;
     margin: 0;
+    background-color: #bbe8f3;
 }
 
 body
@@ -41,7 +42,12 @@ header
     /*color: #136e81;*/
 /*}*/
 
-.bg-main
+.bg-custom-primary
 {
     background: #1b9bb6;
+}
+
+.bg-custom-light
+{
+    background: rgba(255, 255, 255, 0.44);
 }

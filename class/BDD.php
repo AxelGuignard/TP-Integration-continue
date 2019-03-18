@@ -12,7 +12,7 @@ class BDD{
     private static $host = "mysql-arkay2.alwaysdata.net";
     private static $db_name = "arkay2_integration";
     private static $username = "arkay2";
-    private static $password = "arkay";
+    private static $password = "arkay2";
     private static $conn;
 
     // get the database connection
@@ -30,4 +30,3 @@ class BDD{
         return self::$conn;
     }
 }
-?>

@@ -1,4 +1,5 @@
-<nav class="navbar navbar-light bg-main">
+<nav class="navbar navbar-light bg-custom-primary">
+    <div></div>
     <form class="form-inline">
         <?php
         if(isset($_SESSION['user']))
@@ -10,8 +11,8 @@
         else
         {
             ?>
-            <a href="" class="btn btn-outline-light">REGISTER</a>
-            <button type="button" onclick="connect()" class="btn btn-outline-light">CONNECT</button>
+            <a href="register.php" class="btn btn-outline-light">REGISTER</a>
+            <a href="connection.php" class="btn btn-outline-light">CONNECT</a>
             <?php
         }
         ?>
